@@ -234,21 +234,29 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 1% 46px;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 17px;
   background-color: white;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
+}
+
+.feature .image-container img {
+  width: 100%;
+}
+
+.feature .content {
+  height: 147px;
 }
 
 .feature h2 {
