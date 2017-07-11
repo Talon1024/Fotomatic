@@ -28,6 +28,12 @@ html {
   display: block;
 }
 
+@media only screen and (max-width: 1024px) {
+  .main-content {
+    top: 3.625rem;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -83,7 +89,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
   header .content {
     padding: 1rem;
   }
@@ -136,7 +142,7 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  /*height: 43.5rem;*/
   background-image: url("../images/banner-landingpage.jpg");
   background-size: cover;
   background-position: right;
@@ -189,7 +195,7 @@ header .mobile {
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    height: 28rem;
+    /*height: 28rem;*/
   }
 
   #sign-up-cta {
